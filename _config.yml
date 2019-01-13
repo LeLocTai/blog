@@ -6,9 +6,10 @@
 title: Tai's Blog
 email: contact@leloctai.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Stuff
+  Blogging stuff
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.leloctai.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: LeLocTai
 permalink: pretty
 
 # Build settings
@@ -18,7 +19,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-analytics
+  - jekyll-email-protect
 #incremental: true
 
 # Plugins settings
@@ -33,6 +34,9 @@ show_excerpts: true
 minima:
   social_links:
     twitter: LeLocTai
+header_pages:
+  
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
