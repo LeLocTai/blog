@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -20,6 +21,21 @@ layout: default
     {{ content }}
   </div>
 
+  <h2>Lastest posts</h2>
+  <ul class="other-post-list">
+    {% for post in site.posts offset:0 limit:3 %}
+    <li class="other-post-line">
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <big><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></big>
+      <span class="other-post-excerpt">{{ post.excerpt | strip | truncate: 120 }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  <h3>
+    <a href="/">All posts</a>
+  </h3>
+
+  <h2>Comments</h2>
   <div id="commento"></div>
   <script src="https://cdn.commento.io/js/commento.js"></script>
 

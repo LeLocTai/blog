@@ -21,10 +21,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eg
 </html>
 ```
 
-{:.fullwidth}
 ![big image](https://images.unsplash.com/photo-1547149655-fd2eea6e336d)
+{:.fullwidth}
 
-![small image](http://chittagongit.com//images/small-icon-images/small-icon-images-11.jpg)
+![medium image](https://images.unsplash.com/photo-1547149655-fd2eea6e336d?w=850)
+{:.fullwidth}
+
+![small image](https://upload.wikimedia.org/wikipedia/commons/f/f9/Wiktionary_small.svg)
 
 #### You might want a sub-subheading (h4)
 

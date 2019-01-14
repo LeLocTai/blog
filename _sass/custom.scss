@@ -1,8 +1,34 @@
+:root {
+    --body-width: 100vw;
+}
+
 .fullwidth {
-    width: 100vw;
+    width: var(--body-width);
     position: relative;
     left: 50%;
     right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    margin-left: calc(var(--body-width) / -2);
+    margin-right: calc(var(--body-width) / -2);
+
+    > * {
+        display: block;
+        margin: auto;
+    }
+}
+
+.other-post-list {
+    margin-left: 0;
+
+    .other-post-line {
+        margin-bottom: .25em;
+    }
+}
+
+.other-post-excerpt {
+    display: inline;
+    opacity: .8;
+
+    p {
+        display: inline;
+    }
 }
