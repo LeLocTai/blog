@@ -13,6 +13,7 @@ twitter_username: LeLocTai
 permalink: pretty
 
 # Build settings
+destination: ./docs
 markdown: kramdown
 theme: minima
 plugins:
