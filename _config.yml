@@ -21,6 +21,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-email-protect
+  - jekyll-analytics
 #incremental: true
 
 # Plugins settings
