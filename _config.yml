@@ -13,6 +13,7 @@ twitter_username: LeLocTai
 permalink: pretty
 
 # Build settings
+destination: ./docs
 markdown: kramdown
 theme: minima
 plugins:
@@ -20,6 +21,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-email-protect
+  - jekyll-analytics
 #incremental: true
 
 # Plugins settings
