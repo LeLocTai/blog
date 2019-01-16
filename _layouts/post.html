@@ -23,7 +23,7 @@ layout: default
 
   <h2>Lastest posts</h2>
   <ul class="other-post-list">
-    {% for post in site.posts offset:0 limit:3 %}
+    {% for post in site.posts offset:1 limit:3 %}
     <li class="other-post-line">
       <span class="post-meta">{{ post.date | date: date_format }}</span>
       <big><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></big>
