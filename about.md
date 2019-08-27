@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the my personal blog. More "official" stuffs should be on the apex site.
+This is the my personal blog. More "official" stuffs should be on the main site.

@@ -2,6 +2,10 @@
     --body-width: 100vw;
 }
 
+figcaption {
+    text-align: center;
+}
+
 .fullwidth {
     width: var(--body-width);
     position: relative;
