@@ -5,3 +5,5 @@ edit:
 /_posts
 
 use jekyll in wsl
+
+There a prepush hook to copy to _site to docs. Not needed on Netlify
