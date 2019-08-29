@@ -6,4 +6,4 @@ edit:
 
 use jekyll in wsl
 
-There a prepush hook to copy to _site to docs. Not needed on Netlify
+There's a prepush hook to copy to _site to docs. Not needed on Netlify
