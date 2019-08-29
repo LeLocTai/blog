@@ -3,6 +3,8 @@ backend:
   repo: LeLocTai/blog
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets'
+public_folder: 'assets'
+display_url: https://blog.leloctai.com
 collections:
   - name: 'posts'
     label: 'Posts'
