@@ -23,7 +23,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
   gem 'jekyll-analytics'
-  gem 'jekyll-admin'
+#   gem 'jekyll-admin'
   gem 'jekyll-email-protect'
 end
 
