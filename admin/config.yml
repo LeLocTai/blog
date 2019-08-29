@@ -4,8 +4,8 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets'
 collections:
-  - name: 'blog'
-    label: 'Blog'
+  - name: 'post'
+    label: 'Post'
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
