@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://tai-blog.netlify.com"
+  to = "https://blog.leloctai.com"
+  status = 200
+  force = true
