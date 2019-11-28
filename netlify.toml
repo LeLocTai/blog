@@ -3,3 +3,8 @@
   to = "https://blog.leloctai.com"
   status = 200
   force = true
+  
+  [[headers]]
+  for = "/feed.xml"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
