@@ -1,6 +1,8 @@
 ---
-title: Markdown test
 layout: post
+title: Markdown test
+published: true
+date: 2019-11-29T10:35:13.768Z
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
